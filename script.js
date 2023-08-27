@@ -4,8 +4,8 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img");
   if (html.classList.contains("dark")) {
-    img.setAttribute("src", "./assets/kaguya-icon-dark.png")
+    img.setAttribute("data-src", "./assets/kaguya-icon-dark.png")
   } else {
-    img.setAttribute("src", "./assets/kaguya-icon.png")
+    img.setAttribute("data-src", "./assets/kaguya-icon.png")
   }
 }
