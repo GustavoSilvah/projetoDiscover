@@ -48,9 +48,9 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 122px;
   border-radius: 50%;
-  border: 1px solid var(--highlight-color);
+  border: 1px solid rgb(129, 125, 125);
 }
 
 #profile p {
